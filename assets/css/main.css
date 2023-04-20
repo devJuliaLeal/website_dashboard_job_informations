@@ -1418,6 +1418,7 @@ input, select, textarea {
 	}
 
 		.gallery article {
+			
 			-moz-transition: -moz-transform 1s ease, opacity 1s ease;
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
@@ -1432,8 +1433,14 @@ input, select, textarea {
 		}
 
 			.gallery article .image {
+				width: 100%;
+  			 height: 100%;
+			   background-size: cover;
+			   background-position: center;
+			   background-repeat: no-repeat;
 				margin: 0;
 				display: block;
+				
 			}
 
 			.gallery article:nth-last-child(1n) {
