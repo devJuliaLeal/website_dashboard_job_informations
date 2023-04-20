@@ -1190,7 +1190,7 @@ input, select, textarea {
 		}
 
 			table.default tbody tr:nth-child(2n+2) {
-				background: rgba(229, 230, 231, 0.5);
+				background: rgba(221, 78, 240, 0.5);
 			}
 
 			table.default td {
@@ -1204,7 +1204,7 @@ input, select, textarea {
 			}
 
 			table.default thead {
-				background: #39454b;
+				background: #9a0dc5;
 				color: #ffffff;
 			}
 
@@ -2160,8 +2160,8 @@ input, select, textarea {
 		position: relative;
 		margin: 0;
 		line-height: 1em;
-		padding: 1.5em;
-		background: #39454b;
+		padding: 1em;
+		background: #1f0427;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
@@ -2254,6 +2254,14 @@ input, select, textarea {
 		background-position: top left, center center;
 	}
 
+	/* Two */
+
+	#three {
+		background: url("images/overlay.png"), url("../../images/three.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
 /* Contact */
 
 	#contact {
